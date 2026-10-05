@@ -1,32 +1,70 @@
-<h1 align="center">Hey 👋, I'm Prem Mehta</h1>
-<h3 align="center">Currently Pursuing: BE in Mathematics and Computing at BITS,Goa campus</h3>
-
-- 🔭 I’m currently working on **Game Dev using Unity and C#**
-
-- 🌱 I’m currently learning **Python OOPS,Numpy and Pandas**
-
-- 📫 How to reach me **mehta.prem003@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/prem mehta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="prem mehta" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
-
-
-<!--
-**Prem-Mehta03/Prem-Mehta03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Hi, I'm Prem Mehta 👋
+ 
+**B.E. (Hons.) Mathematics and Computing, BITS Pilani K.K. Birla Goa Campus (2028)** | CGPA 9.34
+ 
+I build search, ML and agentic-AI systems, and I like picking up problems that bother me and shipping something that works. Currently looking for SDE and AI/ML internships.
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/prem-mehta-8b599b335/?isSelfProfile=true))
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mehta.prem003@gmail.com)
+ 
+---
+ 
+## What I'm working on
+ 
+- **Unidex:** a chat-first search service over department Google Drives, being extended with a measured LLM fallback and real student usage.
+- **I-PINNs:** Interface Physics-Informed Neural Networks for PDE interface problems, to be presented at ICMAI-MAC, NIT Goa (Dec 2026).
+- **Learning in public:** information retrieval, agentic systems and how to evaluate them honestly.
+---
+ 
+## Featured projects
+ 
+### 🔎 Unidex: Unified Search over Google Drives
+`Python` `FastAPI` `SQLite` `BM25` `OCR` `Google OAuth`
+ 
+Students lose time hunting for PYQs and notes across separate department drives with inconsistent folder names. Unidex is a chat-first search service that links to the original Drive files without copying them.
+ 
+- BM25 inverted index, trie autocomplete and filter indexes written from scratch
+- 1,134 files from 5 course drives; rules-first extractor labels 97% of files at 0.8+ confidence
+- OCR pipeline makes 84% of 405 PDFs searchable by topic
+- MRR 0.90 on 28 hand-written queries; 1.4 ms median search time
+- College-domain Google sign-in, per-user rate limits and issue reporting
+🔗 [Repository](https://github.com/Prem-Mehta03/Unidex) 
+ 
+### 🏗️ ArchAI: Multi-Agent Framework for AI-Assisted Architectural Design
+`Python` `Agentic AI` `REST APIs`
+ 
+Part of a 22-member team. I owned the Planner Agent in a Generator-Verifier multi-agent pipeline with strict JSON-only handoffs, and designed human-in-the-loop mediation so constraint failures are resolved with the user instead of exposing raw backend errors.
+ 
+### 🧠 Physics-Informed Neural Networks (PINNs and I-PINNs)
+`PyTorch` `JAX` `Numerical Methods`
+ 
+- PINN models for IVPs, BVPs and PDEs, reaching under 1% error against classical solvers (gradient descent, least squares, Euler, quadrature)
+- Extended to Interface PINNs in JAX, using hard embedding of interface conditions to reach under 0.1% error on problems where standard PINNs failed to converge
+- Accepted to present at the 1st International Conference on Mathematics and AI: Modelling, Analysis and Computation (ICMAI-MAC), NIT Goa, Dec 2026
+ 
+---
+ 
+## Skills
+ 
+| | |
+|---|---|
+| **Languages** | C++, Python, Java, C#, SQL |
+| **AI / ML** | PyTorch, JAX, Transformers, Embeddings, RAG, Multi-Agent Systems |
+| **Backend and data** | FastAPI, REST APIs, SQLite, Information Retrieval (BM25, tries, inverted indexes) |
+| **Core CS** | Data Structures and Algorithms, OOP, DBMS, Graphs and Networks, Numerical Optimization |
+| **Tools** | Git, GitHub, Unity |
+ 
+---
+ 
+## Highlights
+ 
+- 🏆 Winner, Integration Bee '24, BITS Pilani K.K. Birla Goa Campus
+- 🎓 Merit Scholarship: top 2% (top 30) of the campus, Feb 2026
+- 📊 JEE Advanced AIR 5410 · JEE Mains 99.44 percentile
+- 🚀 Core Member, SEDS Celestia: propulsion system simulation for a reusable rocket engine
+- 💼 Intern, AI Gurukul (May-Jul 2026): agentic AI, Transformers, embeddings and RAG
+---
+ 
+## Get in touch
+ 
+📫 [mehta.prem003@gmail.com](mailto:mehta.prem003@gmail.com) · [LinkedIn](https://www.linkedin.com/in/prem-mehta-8b599b335/?isSelfProfile=true)
